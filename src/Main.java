@@ -20,8 +20,8 @@ public class Main {
         for (int i = 0; i < ten.length; i++) {
             if (ten[i] == 0) {
                 ten[i] = 1;
-            } else
-            { ten[i] = 0;
+            } else {
+                ten[i] = 0;
             }
         }
         System.out.println("Массив после цикла:");
@@ -41,7 +41,7 @@ public class Main {
         int size = 5; // 13 задание
         int[][] thirteen = new int[size][size];
         for (int i = 0; i < size; i++) {
-            thirteen [i][i] = 1;
+            thirteen[i][i] = 1;
         }
         thirteenthTask(thirteen);
         int len = 5; // 14 задание
@@ -131,6 +131,7 @@ public class Main {
         }
         return false;
     }
+
     /* 10 задание */
     public static void tenthTask(int[] ten) {
         for (int value : ten) {
@@ -138,6 +139,7 @@ public class Main {
         }
         System.out.println();
     }
+
     /* 11 задание */
     public static void eleventhTask(int[] eleven) {
         for (int value : eleven) {
@@ -145,6 +147,7 @@ public class Main {
         }
         System.out.println();
     }
+
     /* 12 задание */
     public static void twentiethTask(int[] twenty) {
         for (int value : twenty) {
@@ -152,6 +155,7 @@ public class Main {
         }
         System.out.println();
     }
+
     /* 13 задание */
     public static void thirteenthTask(int[][] thirteen) {
         for (int[] row : thirteen) {
@@ -161,14 +165,16 @@ public class Main {
             System.out.println();
         }
     }
+
     /* 14 задание */
     public static int[] fourteenthTask(int len, int initialValue) {
         int[] fourteen = new int[len];
-            for (int i = 0; i < len; i++) {
+        for (int i = 0; i < len; i++) {
             fourteen[i] = initialValue;
         }
         return fourteen;
     }
+
     public static void printFourteenthTask(int[] fourteen) {
         for (int value : fourteen) {
             System.out.print(value + " ");
