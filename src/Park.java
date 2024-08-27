@@ -39,17 +39,4 @@ public class Park {
             System.out.println("Название: " + name + ", Время работы: " + workingHours + ", Стоимость: " + price + " рублей");
         }
     }
-
-    public static void main(String[] args) {
-        Park park = new Park("Джаваленд", 5);
-
-        // Добавляем аттракционы
-        park.addAttraction("Водопадный", "10:00 - 22:00", 550);
-        park.addAttraction("V-образный", "09:00 - 23:00", 500);
-        park.addAttraction("Итерационный", "12:00 - 20:00", 350);
-        park.addAttraction("Инкрементальный", "10:00 - 18:00", 350);
-        park.addAttraction("Спиральный", "11:00 - 21:00", 400);
-
-        park.displayAttractions();
-    }
 }
